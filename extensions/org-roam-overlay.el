@@ -5,7 +5,7 @@
 ;; Author: Jethro Kuan <jethrokuan95@gmail.com>
 ;; URL: https://github.com/org-roam/org-roam
 ;; Keywords: org-mode, roam, convenience
-;; Version: 2.1.0
+;; Version: 2.2.1
 ;; Package-Requires: ((emacs "26.1") (org "9.4") (org-roam "2.1"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -27,8 +27,8 @@
 
 ;;; Commentary:
 ;;
-;; This extension provides allows to render [[id:]] links that don't have an
-;; asscoiated descriptor with an overlay that displays the node's current title.
+;; This extension allows to render [[id:]] links that don't have an associated
+;; descriptor with an overlay that displays the node's current title.
 ;;
 ;;; Code:
 (require 'org-roam)
